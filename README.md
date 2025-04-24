@@ -51,6 +51,8 @@ The system consists of the following components:
     QDRANT_URL=your_qdrant_url_here
     QDRANT_API_KEY=your_qdrant_api_key_here
     ```
+4. Create a websites.txt file in vector_db folder and write down the restaurant urls line by line
+
 
 ---
 
@@ -112,3 +114,9 @@ python agent.py  # Test the RAG agent
 ## Future Improvements
 1. The while scraping the contents, use a image reading model as most of the menu section are in images for many restaurants
 2. Replace the Llama model from Groq to Huggingface to remove the free token restrictions.
+
+### Note:
+If you change the collection name in `vector_db\store.py` then remember to change the collection name in `rag\tool_knowledge_base.py` as well at line number 43.
+
+### References and help taken:
+I have taken help from Langchain Docs and for generating Docstrings for each function,and the data cleainng algorithm, I have taken help from Claude LLM.

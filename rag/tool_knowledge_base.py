@@ -45,7 +45,7 @@ class ToolKnowledgeBase(StructuredTool):
         self.vs_retriever = self.vector_db.as_retriever(search_type="mmr")
     
     @traceable(run_type="retriever", name="retrieve_restaurant_info")
-    def retrieve_from_kbase(self, query: str, k: int = 1) -> str:
+    def retrieve_from_kbase(self, query: str, k: int = 3) -> str:
         logger.info(f"Searching restaurant knowledge base for query: {query}")
         try:
             docs = self.vs_retriever.invoke(query)[:k]
