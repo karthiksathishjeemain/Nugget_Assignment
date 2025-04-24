@@ -93,7 +93,7 @@ python tool_knowledge_base.py  # Test the knowledge base retrieval
 python agent.py  # Test the RAG agent
 ```
 ## Project Structure
-
+```bash
 ├── rag/
 │   ├── agent.py          # RAG agent implementation
 │   ├── app.py            # Streamlit web interface
@@ -110,7 +110,7 @@ python agent.py  # Test the RAG agent
 ├── .gitignore            # Git ignore file
 ├── requirements.txt      # Project dependencies
 └── README.md             # This file
-
+```
 ## Future Improvements
 1. The while scraping the contents, use a image reading model as most of the menu section are in images for many restaurants
 2. Replace the Llama model from Groq to Huggingface to remove the free token restrictions.
@@ -119,4 +119,4 @@ python agent.py  # Test the RAG agent
 If you change the collection name in `vector_db\store.py` then remember to change the collection name in `rag\tool_knowledge_base.py` as well at line number 43.
 
 ### References and help taken:
-I have taken help from Langchain Docs and for generating Docstrings for each function,and the data cleainng algorithm, I have taken help from Claude LLM.
+I have taken help from Langchain Docs and for generating Docstrings for each function,the data cleainng algorithm and README file and resolving errors while building the project, I have taken help from Claude LLM.
