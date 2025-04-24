@@ -9,6 +9,10 @@ This project implements a Retrieval-Augmented Generation (RAG) system for restau
 ## Architecture
 
 The system consists of the following components:
+![Architectue Image](./assets/architecture.png)
+
+For a detailed view of the image, please [visit](https://www.canva.com/design/DAGVaBaEtus/Khe_ZJbFOrbI9YLD3Nyk7g/edit?utm_content=DAGVaBaEtus&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
+
 
 ### Vector Database Pipeline
 
