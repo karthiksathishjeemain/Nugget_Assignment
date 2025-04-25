@@ -1,0 +1,17 @@
+langchain>=0.1.0
+langchain-groq>=0.1.0
+langchain-huggingface>=0.0.2
+langchain-core>=0.1.0
+langchain_qdrant>=0.1.0
+langgraph>=0.0.20
+langsmith>=0.0.66
+qdrant-client>=1.7.0
+sentence-transformers>=2.2.2
+beautifulsoup4>=4.12.2
+requests>=2.31.0
+streamlit>=1.30.0
+python-dotenv>=1.0.0
+pydantic>=2.5.0
+html2text
+
+
